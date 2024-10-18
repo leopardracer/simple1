@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Price Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Crypto Prices</h1>
+        <div class="price-container">
+            <div class="crypto-card">
+                <p>Bitcoin (BTC)</p>
+                <span id="btc-price">$0</span>
+            </div>
+            <div class="crypto-card">
+                <p>Ethereum (ETH)</p>
+                <span id="eth-price">$0</span>
+            </div>
+            <div class="crypto-card">
+                <p>Base Token (BASE)</p>
+                <span id="base-price">$0</span>
+            </div>
+        </div>
+        <p id="status">Fetching latest prices...</p>
+    </div>
+
+    <!-- Footer with your signature -->
+    <footer>
+        <p>Created by <strong>leopardracer</strong></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
